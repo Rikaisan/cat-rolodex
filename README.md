@@ -4,7 +4,7 @@ This project was created with [React](https://reactjs.org).
 
 ## Visit the project
 
-You can click [Here](https://Rikaisan.github.io/cat-rolodex)
+You can click [Here](https://rikaisan.github.io/cat-rolodex) to see a live preview of the project
 
 ## Features
 
