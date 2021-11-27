@@ -1,6 +1,6 @@
 {
-	"short_name": "Monsters",
-	"name": "Monsters Rolodex",
+	"short_name": "Cat-dex",
+	"name": "Cat Rolodex",
 	"icons": [],
 	"start_url": "./index.html",
 	"display": "standalone",

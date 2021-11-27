@@ -18,14 +18,16 @@ class App extends Component {
 		this.setState({ monsters: data });
 	}
 
+	updateSearchField = (event) =>
+		this.setState({ searchField: event.target.value });
+
 	render() {
 		return (
 			<div className='App'>
+				<h1>Cat Rolodex</h1>
 				<SearchBox
 					placeholder='Search cats...'
-					changeHandler={(event) =>
-						this.setState({ searchField: event.target.value })
-					}
+					changeHandler={this.updateSearchField}
 				/>
 				{(this.state.monsters.length > 0 && (
 					<CardList
